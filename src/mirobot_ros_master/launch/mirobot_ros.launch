@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<launch>
+
+  <node name= "MirobotServer" pkg="trajectory_planner" type="MirobotServer.py" respawn="true" output="screen" />
+
+</launch>

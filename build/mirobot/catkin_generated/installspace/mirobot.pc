@@ -1,0 +1,8 @@
+prefix=/home/dominik/mirobot_ws/install
+
+Name: mirobot
+Description: Description of mirobot
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: 

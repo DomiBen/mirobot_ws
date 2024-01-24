@@ -1,0 +1,2 @@
+mirobot
+-DCATKIN_DEVEL_PREFIX=/home/dominik/mirobot_ws/devel -DCMAKE_INSTALL_PREFIX=/home/dominik/mirobot_ws/install -G Unix Makefiles
