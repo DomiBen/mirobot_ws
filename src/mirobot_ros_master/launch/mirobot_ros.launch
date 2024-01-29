@@ -1,6 +1,15 @@
 <?xml version="1.0"?>
 <launch>
 
-  <node name= "MirobotServer" pkg="trajectory_planner" type="MirobotServer.py" respawn="true" output="screen" />
-
+  <node name= "MirobotServer" pkg="trajectory_planner" type="MirobotServer.py" respawn="true" output="screen">
+    <param name="port"              type="string"               value="/dev/ttyUSB0"/>
+  </node>
+  
+  <node name= "DirectKinematics" pkg="kinematics" type="kinematics_node.py" respawn="true" output="screen" />
+  
+  <node name="serial_node"        pkg="rosserial_python"      type="serial_node.py">
+    <param name="port"              type="string"               value="/dev/ttyACM0"/>
+    <param name="baud"              type="int"                  value="57600"/>
+  </node>
+  
 </launch>
