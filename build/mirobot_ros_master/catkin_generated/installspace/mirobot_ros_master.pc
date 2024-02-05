@@ -1,0 +1,8 @@
+prefix=/home/dominik/mirobot_ws/install
+
+Name: mirobot_ros_master
+Description: Description of mirobot_ros_master
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
