@@ -27,7 +27,7 @@ class JointStatePublisher:
         joint_state.effort = []
         joint_state.header.seq = self.sequence
         self.sequence = self.sequence + 1
-        joint_state.header.frame_id = 'base_link'
+        joint_state.header.frame_id = 'link1'
         self.pub.publish(joint_state)
     
 
