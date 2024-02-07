@@ -1,0 +1,8 @@
+prefix=/home/dominik/mirobot_ws/devel
+
+Name: mirobot_urfd
+Description: Description of mirobot_urfd
+Version: 1.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,8 @@
+prefix=/home/dominik/mirobot_ws/install
+
+Name: mirobot_urdf
+Description: Description of mirobot_urdf
+Version: 1.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

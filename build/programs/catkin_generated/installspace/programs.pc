@@ -1,0 +1,8 @@
+prefix=/home/dominik/mirobot_ws/install
+
+Name: programs
+Description: Description of programs
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

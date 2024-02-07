@@ -131,7 +131,10 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/dominik/mirobot_ws/build/gtest/cmake_install.cmake")
+  include("/home/dominik/mirobot_ws/build/kinematics/cmake_install.cmake")
   include("/home/dominik/mirobot_ws/build/mirobot/cmake_install.cmake")
+  include("/home/dominik/mirobot_ws/build/mirobot_ros_master/cmake_install.cmake")
+  include("/home/dominik/mirobot_ws/build/programs/cmake_install.cmake")
 
 endif()
 
