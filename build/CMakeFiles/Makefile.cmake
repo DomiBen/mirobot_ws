@@ -22,6 +22,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "mirobot/cmake/mirobot-genmsg.cmake"
   "mirobot_ros_master/catkin_generated/ordered_paths.cmake"
   "mirobot_ros_master/catkin_generated/package.cmake"
+  "programs/catkin_generated/ordered_paths.cmake"
+  "programs/catkin_generated/package.cmake"
   "/home/dominik/mirobot_ws/devel/share/mirobot/cmake/mirobot-msg-paths.cmake"
   "/home/dominik/mirobot_ws/src/CMakeLists.txt"
   "/home/dominik/mirobot_ws/src/kinematics/CMakeLists.txt"
@@ -31,6 +33,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/dominik/mirobot_ws/src/mirobot/package.xml"
   "/home/dominik/mirobot_ws/src/mirobot_ros_master/CMakeLists.txt"
   "/home/dominik/mirobot_ws/src/mirobot_ros_master/package.xml"
+  "/home/dominik/mirobot_ws/src/programs/CMakeLists.txt"
+  "/home/dominik/mirobot_ws/src/programs/package.xml"
   "/opt/ros/noetic/share/catkin/cmake/all.cmake"
   "/opt/ros/noetic/share/catkin/cmake/assert.cmake"
   "/opt/ros/noetic/share/catkin/cmake/atomic_configure_file.cmake"
@@ -230,6 +234,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "kinematics/CMakeFiles/CMakeDirectoryInformation.cmake"
   "mirobot/CMakeFiles/CMakeDirectoryInformation.cmake"
   "mirobot_ros_master/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "programs/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:

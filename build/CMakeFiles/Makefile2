@@ -57,6 +57,7 @@ all: gtest/all
 all: kinematics/all
 all: mirobot/all
 all: mirobot_ros_master/all
+all: programs/all
 
 .PHONY : all
 
@@ -65,6 +66,7 @@ preinstall: gtest/preinstall
 preinstall: kinematics/preinstall
 preinstall: mirobot/preinstall
 preinstall: mirobot_ros_master/preinstall
+preinstall: programs/preinstall
 
 .PHONY : preinstall
 
@@ -78,6 +80,7 @@ clean: gtest/clean
 clean: kinematics/clean
 clean: mirobot/clean
 clean: mirobot_ros_master/clean
+clean: programs/clean
 
 .PHONY : clean
 
@@ -228,6 +231,24 @@ mirobot_ros_master/preinstall:
 mirobot_ros_master/clean:
 
 .PHONY : mirobot_ros_master/clean
+
+#=============================================================================
+# Directory level rules for directory programs
+
+# Recursive "all" directory target.
+programs/all:
+
+.PHONY : programs/all
+
+# Recursive "preinstall" directory target.
+programs/preinstall:
+
+.PHONY : programs/preinstall
+
+# Recursive "clean" directory target.
+programs/clean:
+
+.PHONY : programs/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/doxygen.dir

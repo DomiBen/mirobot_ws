@@ -94,3 +94,10 @@
 /home/dominik/mirobot_ws/build/mirobot_ros_master/CMakeFiles/rebuild_cache.dir
 /home/dominik/mirobot_ws/build/mirobot_ros_master/CMakeFiles/edit_cache.dir
 /home/dominik/mirobot_ws/build/mirobot_ros_master/CMakeFiles/test.dir
+/home/dominik/mirobot_ws/build/programs/CMakeFiles/install/strip.dir
+/home/dominik/mirobot_ws/build/programs/CMakeFiles/install/local.dir
+/home/dominik/mirobot_ws/build/programs/CMakeFiles/install.dir
+/home/dominik/mirobot_ws/build/programs/CMakeFiles/list_install_components.dir
+/home/dominik/mirobot_ws/build/programs/CMakeFiles/rebuild_cache.dir
+/home/dominik/mirobot_ws/build/programs/CMakeFiles/edit_cache.dir
+/home/dominik/mirobot_ws/build/programs/CMakeFiles/test.dir

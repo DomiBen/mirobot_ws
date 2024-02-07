@@ -494,6 +494,24 @@ mirobot_ros_master_BINARY_DIR:STATIC=/home/dominik/mirobot_ws/build/mirobot_ros_
 //Value Computed by CMake
 mirobot_ros_master_SOURCE_DIR:STATIC=/home/dominik/mirobot_ws/src/mirobot_ros_master
 
+//Value Computed by CMake
+mirobot_urdf_BINARY_DIR:STATIC=/home/dominik/mirobot_ws/build/mirobot_urdf
+
+//Value Computed by CMake
+mirobot_urdf_SOURCE_DIR:STATIC=/home/dominik/mirobot_ws/src/mirobot_urdf
+
+//Value Computed by CMake
+mirobot_urfd_BINARY_DIR:STATIC=/home/dominik/mirobot_ws/build/mirobot_urfd
+
+//Value Computed by CMake
+mirobot_urfd_SOURCE_DIR:STATIC=/home/dominik/mirobot_ws/src/mirobot_urfd
+
+//Value Computed by CMake
+programs_BINARY_DIR:STATIC=/home/dominik/mirobot_ws/build/programs
+
+//Value Computed by CMake
+programs_SOURCE_DIR:STATIC=/home/dominik/mirobot_ws/src/programs
+
 //The directory containing a CMake configuration file for rosconsole.
 rosconsole_DIR:PATH=/opt/ros/noetic/share/rosconsole/cmake
 
@@ -511,6 +529,9 @@ rosgraph_msgs_DIR:PATH=/opt/ros/noetic/share/rosgraph_msgs/cmake
 
 //The directory containing a CMake configuration file for roslang.
 roslang_DIR:PATH=/opt/ros/noetic/share/roslang/cmake
+
+//The directory containing a CMake configuration file for roslaunch.
+roslaunch_DIR:PATH=/opt/ros/noetic/share/roslaunch/cmake
 
 //The directory containing a CMake configuration file for rospy.
 rospy_DIR:PATH=/opt/ros/noetic/share/rospy/cmake
@@ -675,7 +696,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=7
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=8
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

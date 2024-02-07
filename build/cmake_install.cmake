@@ -134,6 +134,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/dominik/mirobot_ws/build/kinematics/cmake_install.cmake")
   include("/home/dominik/mirobot_ws/build/mirobot/cmake_install.cmake")
   include("/home/dominik/mirobot_ws/build/mirobot_ros_master/cmake_install.cmake")
+  include("/home/dominik/mirobot_ws/build/programs/cmake_install.cmake")
 
 endif()
 
