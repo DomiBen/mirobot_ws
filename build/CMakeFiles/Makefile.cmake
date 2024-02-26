@@ -29,6 +29,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/dominik/mirobot_ws/src/kinematics/CMakeLists.txt"
   "/home/dominik/mirobot_ws/src/kinematics/package.xml"
   "/home/dominik/mirobot_ws/src/kinematics/scripts/joint_states_node.py"
+  "/home/dominik/mirobot_ws/src/kinematics/scripts/mirobot_forward_kinematics_node.py"
   "/home/dominik/mirobot_ws/src/mirobot/CMakeLists.txt"
   "/home/dominik/mirobot_ws/src/mirobot/package.xml"
   "/home/dominik/mirobot_ws/src/mirobot_ros_master/CMakeLists.txt"

@@ -2,6 +2,7 @@
 import rospy
 from sensor_msgs.msg import JointState
 from trajectory_planner.srv import *
+import math 
 
 class JointStatePublisher:
     def __init__(self):
@@ -22,7 +23,7 @@ class JointStatePublisher:
         joint_state = JointState()
         joint_state.header.stamp = rospy.Time.now()
         joint_state.name = ["Joint1", "Joint2", "Joint3", "Joint4", "Joint5", "Joint6"]
-        joint_state.position = [pose_response.jointAngle_1, pose_response.jointAngle_2, pose_response.jointAngle_3, pose_response.jointAngle_4, pose_response.jointAngle_5, pose_response.jointAngle_6]
+        joint_state.position = [pose_response.jointAngle_1*math.pi/180, pose_response.jointAngle_2*math.pi/180, pose_response.jointAngle_3*math.pi/180, pose_response.jointAngle_4*math.pi/180, pose_response.jointAngle_5*math.pi/180, pose_response.jointAngle_6*math.pi/180]
         joint_state.velocity = []
         joint_state.effort = []
         joint_state.header.seq = self.sequence

@@ -56,3 +56,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/kinematics" TYPE PROGRAM FILES "/home/dominik/mirobot_ws/build/kinematics/catkin_generated/installspace/joint_states_node.py")
 endif()
 
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/kinematics" TYPE PROGRAM FILES "/home/dominik/mirobot_ws/build/kinematics/catkin_generated/installspace/mirobot_forward_kinematics_node.py")
+endif()
+
