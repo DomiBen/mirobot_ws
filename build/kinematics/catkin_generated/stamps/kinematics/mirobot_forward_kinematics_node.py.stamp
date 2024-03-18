@@ -32,8 +32,8 @@ def callback(data):
     # linear position in kartesian coordinates
     point = Point()
     linear = translation_from_matrix(kdl_pose)
-    point.x =  linear[0]
-    point.y =  linear[1]
+    point.x =  linear[0] + 0.0035
+    point.y =  linear[1] - 0.011295241815272498
     point.z =  linear[2]
     pose.position = point
     # angular
